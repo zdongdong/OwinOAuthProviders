@@ -1,5 +1,5 @@
 ﻿using Microsoft.Owin.Security;
-using Owin.Security.Providers.SinaWeiBo.Provider;
+using Owin.Security.Providers.SinaWeiBo;
 using System;
 using System.Collections.Generic;
 using System.Linq;

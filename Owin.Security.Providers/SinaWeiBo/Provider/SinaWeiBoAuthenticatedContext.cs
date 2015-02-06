@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Owin.Security.Providers.SinaWeiBo.Provider
+namespace Owin.Security.Providers.SinaWeiBo
 {
     public class SinaWeiBoAuthenticatedContext : BaseContext
     {

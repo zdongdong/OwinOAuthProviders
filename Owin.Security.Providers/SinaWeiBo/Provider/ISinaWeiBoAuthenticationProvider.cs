@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Owin.Security.Providers.SinaWeiBo.Provider
+namespace Owin.Security.Providers.SinaWeiBo
 {
     public interface ISinaWeiBoAuthenticationProvider
     {

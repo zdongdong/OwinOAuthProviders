@@ -23,6 +23,8 @@ using Owin.Security.Providers.Yahoo;
 using Owin.Security.Providers.OpenID;
 using Owin.Security.Providers.Steam;
 using Owin.Security.Providers.WordPress;
+using Owin.Security.Providers.SinaWeiBo;
+
 
 namespace OwinOAuthProvidersDemo
 {
@@ -56,6 +58,9 @@ namespace OwinOAuthProvidersDemo
             //app.UseGoogleAuthentication();
 
             //app.UseLinkedInAuthentication("", "");
+
+            app.UseSinaWeiBoAuthentication("591126129", "a1f7d0f307b6802c28f1110ab9df68b5");
+
 
             //app.UseYahooAuthentication("", "");
 

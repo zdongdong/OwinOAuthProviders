@@ -180,6 +180,15 @@
     <Compile Include="Salesforce\SalesforceAuthenticationHandler.cs" />
     <Compile Include="Salesforce\SalesforceAuthenticationMiddleware.cs" />
     <Compile Include="Salesforce\SalesforceAuthenticationOptions.cs" />
+    <Compile Include="SinaWeiBo\Constants.cs" />
+    <Compile Include="SinaWeiBo\Provider\ISinaWeiBoAuthenticationProvider.cs" />
+    <Compile Include="SinaWeiBo\Provider\SinaWeiBoAuthenticatedContext.cs" />
+    <Compile Include="SinaWeiBo\Provider\SinaWeiBoAuthenticationProvider.cs" />
+    <Compile Include="SinaWeiBo\Provider\SinaWeiBoReturnEndpointContext.cs" />
+    <Compile Include="SinaWeiBo\SinaWeiBoAuthenticationExtensions.cs" />
+    <Compile Include="SinaWeiBo\SinaWeiBoAuthenticationHandler.cs" />
+    <Compile Include="SinaWeiBo\SinaWeiBoAuthenticationMiddleware.cs" />
+    <Compile Include="SinaWeiBo\SinaWeiBoAuthenticationOptions.cs" />
     <Compile Include="StackExchange\Constants.cs" />
     <Compile Include="StackExchange\StackExchangeAuthenticationExtensions.cs" />
     <Compile Include="StackExchange\StackExchangeAuthenticationHandler.cs" />

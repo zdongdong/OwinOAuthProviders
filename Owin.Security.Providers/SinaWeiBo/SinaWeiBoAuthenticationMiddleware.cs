@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Microsoft.Owin.Logging;
 using Microsoft.Owin.Security.Infrastructure;
-using Owin.Security.Providers.SinaWeiBo.Provider;
+using Owin.Security.Providers.SinaWeiBo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
